@@ -1,0 +1,176 @@
+Selenium:
+  Selenium can automate web based application
+Selenium Locators:
+id            ext-gen790    ext-gen783
+name
+className  Oct Batch
+linkText
+partialLinkText
+tagName
+CssSelector
+Xpath
+
+
+                CRM/SFA
+              
+
+
+Inspect dom:
+1. rightclick-- inspect
+2. ctrl+shift+i
+3. press f12
+4. more tools -- developer tools
+
+
+
+
+Learn Drop Down:
+//use multilingual project
+1.selectByValue()
+//use plane english project
+2.selectByVisibleText()
+//select randomly
+3.selectByIndex()
+m
+
+
+Xpath:
+ xpath stands for XML path---->Ex-tendable Markup Language
+
+They are two types of Xpath
+these are
+1.Absolute Xpath
+2.Relative Xpath
+
+Absolute Xpath
+1.Starting from root node
+2.start with /
+
+Relative xpath
+1.Starting from current node
+2.start with //
+
+1.Attribute based xpath
+syntax:
+//tagName[@Attribute='AttributeValue']
+
+2.Collection based xpath
+Syntax:
+(//tagName[@Attribute='AttributeValue'])[Index]
+
+3.Text based xpath
+//tagName[text()='textValue']
+
+
+4.Contains based xpath for Text
+//tagName[contains(text(),'textvalue')]
+//a[contains(text(),'CRM/SFA')]
+             
+
+Relative Xpath / Axes  Xpath
+
+Parent to child
+parent xpath /child tagName or chil xpath
+//p[@class='top']/input
+
+child to parent
+child xpath /parent:: tagName of parent tag
+//input[@id='username']/parent::p
+
+or 
+//input[@id='username']/..
+10438
+
+GrandParent to grandChild
+//granparent xpath// grandchild xpath
+//form[@id='login']//label[text()='Username']
+
+GrandChild to GrandParent
+//grandChildXpath/ancestor:: tag name of the grandParent
+//label[text()='Username']/ancestor::form
+or
+//label[text()='Username']/../..
+
+
+Elder sibling xpath to younger sibling xpath:
+
+Elder sibling xpath/following::younger sibling xpath or tagName
+//label[text()='Username']/following::input
+
+
+Yunger sibling xpath to Elder sibling xpath
+youger sibling xpath/preceding::elder sibling xpath or tagName
+
+(//input[@id='password']/preceding::label)[2]
+
+
+Elder cousin xpath to younger cousin xpath:
+
+Elder cousin xpath/following::younger cousinxpath or tagName
+//label[text()='Username']/following::input
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
