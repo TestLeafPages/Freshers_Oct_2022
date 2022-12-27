@@ -1,0 +1,128 @@
+Oops:
+object oriented programming language
+
+1.Abstraction
+2.Inheritance
+3.Encapsulation
+4.Polymorphism
+
+
+Inheritance:
+   inheriting variables and methods from parent class to child class
+
+Types of Inheritance:
+1.Single Inheritance
+2.Multiple Inheritance
+3.Multilevel Inheritance
+
+Advantage:
+Code Reusability
+
+Selenium:
+ChromeDriver extends ChromiumDriver
+ChromiumDriver extends RemoteWebDriver
+
+Java:
+ArrayList extends AbstractList
+
+AbstractList extends AbstractCollection
+
+
+
+
+Polymorphism:
+poly----> many
+Morphism---> multiple form of implementation
+
+1.MethodOverloading/StaticBinding/CompileTimePolymorphism
+Same class same method with different aruguments
+
+Advantage:
+   simplify the verbose
+
+Selenium:
+driver.switchTo().frame(int index);
+driver.switchTo().frame(String nameOrId);
+driver.switchTo().frame(WebElement element);
+
+Java:
+System.out.println()
+
+
+
+2.MethodOverriding/DynamicBinding/RunTimePolymorphism
+Different class with same mathod name
+selenium:
+driver.quit();
+java:
+.equals();.
+
+Abstraction:
+Interface:
+Interface is a design
+its statement end with semicolon.
+unimplemented method
+we can able to use public and default access modifier
+
+
+interface jav
+AndroidTvDesign
+
+
+
+Java example:
+ List ,Set,Collection
+Selenium :
+WebDriver, SearchContext
+
+Abstract Class:
+both partially implemented and unimplemented methods
+
+example java:
+   AbstractList,AbstractCollection
+Selenium:
+ By
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
